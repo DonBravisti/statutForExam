@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.level-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 1px solid #DFE0E1;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.level-1 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.level-1__link a,
+.level-1__contact a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 32px;
+}
+
+/* Temporary solution, instead of img */
+.level-1__link div,
+.level-1__contact div {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.level-1__link p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(28, 41, 77, 0.8);
+}
+
+.level-1__contact p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(28, 41, 77, 0.8);
+}
+
+.level-1 a:hover{
+    color: #FF7A00;
+}
