@@ -83,6 +83,7 @@ body {
 .level-2__links {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 .level-2__link a {
@@ -112,11 +113,15 @@ body {
     margin-left: 30px;
     width: 100%;
     max-width: 573px;
+    border-radius: 5px;
 }
 
 .form__search input {
     width: 70%;
     height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
 }
 
 .form__search button {
@@ -131,4 +136,47 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: white;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+
+.level-3 {
+    display: flex;
+    
+}
+
+.level-3__menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.level-3__menu-item a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.level-3__menu-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+        
+    color: #1C294D;
+}
+
+.level-3__menu-item p:hover{
+    color: #FF7A00;
+}
+
+.sales p {
+    color: #FF283D;
+}
+
+.level-3__menu-item img{
+    margin-right: 7px;
+}
+
