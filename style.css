@@ -70,6 +70,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 
     font-family: 'Roboto', sans-serif;
 }
@@ -180,3 +181,74 @@ body {
     margin-right: 7px;
 }
 
+.slider-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-slider__pictures,
+.sub-slider__pictures div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-slider__pictures{
+    margin-top: 25px;
+}
+
+.sub-slider__pictures div{
+    width: 43%;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.sub-slider__pictures>div:first-child{
+    background-color: #6D378F;
+    color: white;
+}
+
+.sub-slider__pictures>div:last-child{
+    background-color: #FFD8EF;
+    color: rgba(28, 41, 77, 0.8);
+}
+
+
+.wrapper img{
+    width: 100%;
+}
+
+.wrapper div{
+    width: 750px;
+    height: 350px;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+
+    background-color: #1C294D;
+}
+
+.slick-arrow.slick-prev {
+    left: 25px;
+    z-index: 1;
+    border-radius: 0;
+  }
+
+  .slick-arrow.slick-next {
+    right: 25px;
+    z-index: 1;
+    
+  }
+
+.slick-dots{
+    top: 320px;
+}
+
+.book-of-day{
+    width: 360px;
+    height: 520px;
+    background-color: #1C294D;
+}
