@@ -144,7 +144,7 @@ body {
 
 .level-3 {
     display: flex;
-    
+
 }
 
 .level-3__menu {
@@ -165,11 +165,11 @@ body {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-        
+
     color: #1C294D;
 }
 
-.level-3__menu-item p:hover{
+.level-3__menu-item p:hover {
     color: #FF7A00;
 }
 
@@ -177,26 +177,27 @@ body {
     color: #FF283D;
 }
 
-.level-3__menu-item img{
+.level-3__menu-item img {
     margin-right: 7px;
 }
 
-.slider-block{
+.slider-block {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .sub-slider__pictures,
-.sub-slider__pictures div{
+.sub-slider__pictures div {
     display: flex;
     justify-content: space-between;
 }
 
-.sub-slider__pictures{
+.sub-slider__pictures {
     margin-top: 25px;
 }
 
-.sub-slider__pictures div{
+.sub-slider__pictures div {
     width: 43%;
     align-items: center;
     padding: 15px;
@@ -206,22 +207,22 @@ body {
     font-size: 20px;
 }
 
-.sub-slider__pictures>div:first-child{
+.sub-slider__pictures>div:first-child {
     background-color: #6D378F;
     color: white;
 }
 
-.sub-slider__pictures>div:last-child{
+.sub-slider__pictures>div:last-child {
     background-color: #FFD8EF;
     color: rgba(28, 41, 77, 0.8);
 }
 
 
-.wrapper img{
+.wrapper img {
     width: 100%;
 }
 
-.wrapper div{
+.wrapper div {
     width: 750px;
     height: 350px;
     font-size: 70px;
@@ -235,20 +236,112 @@ body {
     left: 25px;
     z-index: 1;
     border-radius: 0;
-  }
+}
 
-  .slick-arrow.slick-next {
+.slick-arrow.slick-next {
     right: 25px;
     z-index: 1;
-    
-  }
 
-.slick-dots{
+}
+
+.slick-dots {
     top: 320px;
 }
 
-.book-of-day{
-    width: 360px;
-    height: 520px;
-    background-color: #1C294D;
+.book-of-day {
+    width: 100%;
+    max-width: 360px;
+    max-height: 520px;
+
+    font-family: 'Roboto';
+}
+
+.book-of-day__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.book-of-day__text{
+    margin: 15px 20px 0;
+}
+
+.book-of-day__text p {
+    margin: 10px 0;
+}
+
+.book-of-day img {
+    display: block;
+    width: 100%;
+    max-width: 167px;
+    margin: 0 auto;
+}
+
+.book-of-day__timer {
+    height: fit-content;
+
+    background: rgba(255, 122, 0, 0.15);
+    color: #FF7A00;
+    border-radius: 5px;
+}
+
+.book-of-day__timer p {
+    margin: 5px 10px;
+}
+
+.book__category {
+    font-size: 12px;
+    color: rgba(28, 41, 77, 0.5);
+}
+
+.book__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1C294D;
+}
+
+.book__author-name {
+    font-size: 12px;
+    color: #1C294D;
+}
+
+.book__price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1C294D;
+}
+
+.add-to-basket {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    margin-right: 10px;
+}
+
+.add-to-basket img {
+    width: 100%;
+    max-width: 20px;
+    margin: 0;
+}
+
+.book-of-day__buttons {
+    display: flex;
+    margin: 12px 20px 0;
+}
+
+.book-of-day__buttons button {
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.book-of-day__buttons button:last-child{
+    width: 10%;
+}
+
+.book-of-day__buttons button:last-child img{
+    max-width: 10px;
 }

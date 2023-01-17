@@ -1,8 +1,7 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.wrapper').slick({
         dots: true,
         autoplay: true,
-        arrows: true,
-        
+        arrows: true
     });
-  });
+});
