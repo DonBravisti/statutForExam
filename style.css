@@ -376,6 +376,7 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 
+    cursor: pointer;
 }
 
 .prev div {
@@ -387,6 +388,7 @@ body {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
+    cursor: pointer;
 }
 
 .next div {
@@ -577,6 +579,10 @@ h2 {
     border-radius: 5px;
 }
 
+input[name="subscribe"]::placeholder{
+    padding-left: 15px;
+}
+
 .form__subscribe button{
     width: 100%;
     max-width: 137px;
@@ -590,4 +596,32 @@ h2 {
 
 .form__subscribe button p{
     font-size: 14px;
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.advantage{
+    display: flex;
+    align-items: center;
+}
+
+.advantage__text{
+    font-family: 'Roboto';
+}
+
+.advantage__text p:first-of-type{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1C294D;
+    margin-bottom: 7px;
+}
+
+.advantage__text p:last-of-type{
+    font-size: 12px;
+    color: #727272;
+    margin-top: 0;
 }
