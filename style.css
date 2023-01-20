@@ -346,15 +346,16 @@ body {
     max-width: 10px;
 }
 
-.new__arrivals__header {
+.new__arrivals__header,
+.ready-for-publishing__header {
     display: flex;
     justify-content: space-between;
+    margin: 0 25px;
+    align-items: center;
 }
 
 .slider__buttons {
     display: flex;
-
-
 }
 
 .slider__buttons .prev,
@@ -396,27 +397,51 @@ body {
 
 }
 
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #1C294D;
+}
+
 .book-cards {
     display: flex;
 }
 
-.book-card{
+.book-card {
     position: relative;
     font-family: 'Roboto';
 }
 
-.book-card__img{
+.book-card__img {
     display: block;
     margin: 25px auto 0;
 }
 
-.book-card__labels{
+.book-card__labels {
     position: absolute;
     top: 20px;
     left: 20px;
 }
 
-.bestseller{
+.new-product{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #E2F6EC;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.new-product p{
+    font-size: 12px;
+    color: #3DC47E;
+}
+
+.bestseller {
     width: 86px;
     height: 25px;
     border-radius: 5px;
@@ -427,12 +452,12 @@ body {
     justify-content: space-around;
 }
 
-.bestseller p{
+.bestseller p {
     font-size: 12px;
     color: #AC8EE3;
 }
 
-.promotion{
+.promotion {
     width: 56px;
     height: 25px;
     border-radius: 5px;
@@ -441,49 +466,76 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 
-.promotion p{
+.promotion p {
     font-size: 12px;
-    color: #FF4F52;    
+    color: #FF4F52;
 }
 
 .book-card__text {
     margin: 15px 20px 0;
 }
 
-.estimation-block{
+.estimation-block {
     display: flex;
     margin-left: 20px;
 }
 
 .estimation,
-.recomendation{
+.recomendation {
     display: flex;
     align-items: center;
     height: 25px;
     border-radius: 5px;
 }
 
-.estimation{
+.estimation {
     color: #FBC02D;
     background-color: #fff1cd;
 }
 
-.recomendation{
+.recomendation {
     margin-left: 10px;
     color: #7986CB;
-    background-color: #c2c3c7;
+    background-color: #dfdfdf;
 }
 
 .estimation img,
-.recomendation img{
+.recomendation img {
     height: 100%;
     max-height: 12px;
 }
 
 .estimation p,
-.recomendation p{
+.recomendation p {
     font-size: 12px;
 }
+
+.button__show-books {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    border-top: 1px solid rgba(28, 41, 77, 0.15);
+    cursor: pointer;
+    margin-top: 21px;
+}
+
+.button__show-books p {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #1C294D;
+}
+
+.subscription{
+    display: flex;
+    height: 105px;
+    border-radius: 5px;
+
+    background-color: #0288D1;
+}
+
+
