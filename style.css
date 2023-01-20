@@ -111,6 +111,7 @@ body {
 }
 
 .form__search {
+    display: flex;
     margin-left: 30px;
     width: 100%;
     max-width: 573px;
@@ -346,6 +347,11 @@ body {
     max-width: 10px;
 }
 
+.new__arrivals,
+.ready-for-publishing{
+    margin-top: 30px;
+}
+
 .new__arrivals__header,
 .ready-for-publishing__header {
     display: flex;
@@ -425,7 +431,7 @@ h2 {
     left: 20px;
 }
 
-.new-product{
+.new-product {
     width: 70px;
     height: 25px;
     border-radius: 5px;
@@ -436,7 +442,7 @@ h2 {
     justify-content: space-around;
 }
 
-.new-product p{
+.new-product p {
     font-size: 12px;
     color: #3DC47E;
 }
@@ -530,12 +536,58 @@ h2 {
     color: #1C294D;
 }
 
-.subscription{
+.subscription {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 105px;
     border-radius: 5px;
+    margin-top: 30px;
 
     background-color: #0288D1;
 }
 
+.subscription p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0;
 
+    color: #FFFFFF;
+}
+
+.subscription>p:first-of-type{
+    margin-left: 45px;
+}
+
+.form__subscribe{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 565px;
+
+    margin-right: 45px;
+}
+
+.form__subscribe input{
+    width: 100%;
+    max-width: 418px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__subscribe button{
+    width: 100%;
+    max-width: 137px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-color: transparent;
+}
+
+.form__subscribe button p{
+    font-size: 14px;
+}
