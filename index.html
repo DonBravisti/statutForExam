@@ -121,6 +121,54 @@
                     </li>
                 </ul>
             </div>
+            <div class="mobile">
+                <img class="burger-icon" src="img/catalog.png" alt="">
+                <img src="img/logo.png" alt="">
+                <form action="">
+                    <input type="text" placeholder="Что будем искать?" name="mobile-search">
+                    <button>
+                        <img src="img/loupe.png" alt="">
+                    </button>
+                </form>
+                <a href="">
+                    <img src="img/basket.png" alt="">
+                </a>
+            </div>
+            <div class="burger-menu hidden">
+                <ul class="level-3__menu">
+                    <li class="level-3__menu-item">
+                        <a href="">
+                            <p>Каталог</p>
+                        </a>
+                    </li>
+                    <li class="level-3__menu-item">
+                        <a href="">
+                            <p>Авторы</p>
+                        </a>
+                    </li>
+                    <li class="level-3__menu-item">
+                        <a href="">
+                            <p>Новинки</p>
+                        </a>
+                    </li>
+                    <li class="level-3__menu-item sales">
+                        <a href="">
+                            <img src="img/sales.png" alt="">
+                            <p>Скидки</p>
+                        </a>
+                    </li>
+                    <li class="level-3__menu-item">
+                        <a href="">
+                            <p>Партнёрам</p>
+                        </a>
+                    </li>
+                    <li class="level-3__menu-item">
+                        <a href="">
+                            <p>Мы</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -129,9 +177,12 @@
             <div class="slider">
                 <div class="wrapper">
                     <img src="img/2=3.png" alt="">
-                    <div>1</div>
+                    <img src="img/2=3.png" alt="">
+                    <img src="img/2=3.png" alt="">
+                    <img src="img/2=3.png" alt="">
+                    <!-- <div>1</div>
                     <div>2</div>
-                    <div>3</div>
+                    <div>3</div> -->
                 </div>
                 <div class="sub-slider__pictures">
                     <div>
@@ -473,7 +524,7 @@
             <p>Скидка 200 ₽ при подписке на рассылку Издательства</p>
             <form class="form__subscribe" action="">
                 <input type="text" name="subscribe" placeholder="Введите ваш Email">
-                <button type="submit">
+                <button class="subscribe__button" type="submit">
                     <p>Подписаться</p>
                 </button>
             </form>
@@ -888,6 +939,14 @@
 
     <footer>
         <div class="footer__subscribe-back">
+            <div class="netwworks__colored">
+                <img src="img/fbColored.png" alt="">
+                <img src="img/vkColored.png" alt="">
+                <img src="img/instaColored.png" alt="">
+            </div>
+        </div>
+
+        <div class="footer__subscribe-back">
             <div class="footer__subscribe container">
                 <img src="img/logo.png" alt="">
                 <form class="footer__form">
@@ -994,12 +1053,125 @@
                 <li><a href="">Договор оферты</a></li>
             </ul>
         </div>
+
+        <div class="footer-mobile container">
+            <ul class="shortcuts__drop-down">
+                <li>
+                    <p>Покупателям</p>
+                    <button class="drop-down__button"></button>
+                </li>
+                <li class="drop-down hidden">
+                    <ul>
+                        <li>
+                            <a href="">Наша почта</a>
+                        </li>
+                        <li>
+                            <a href="">Оплата и доставка</a>
+                        </li>
+                        <li>
+                            <a href="">Вопросы и ответы</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Издательство</p>
+                    <button class="drop-down__button"></button>
+                </li>
+                <li class="drop-down hidden">
+                    <ul>
+                        <li>
+                            <a href="">О компании</a>
+                        </li>
+                        <li>
+                            <a href="">Авторам</a>
+                        </li>
+                        <li>
+                            <a href="">Вакансии</a>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Книги</p>
+                    <button class="drop-down__button"></button>
+                </li>
+                <li class="drop-down hidden">
+                    <ul>
+                        <li>
+                            <a href="">Все категории</a>
+                        </li>
+                        <li>
+                            <a href="">Бестселлеры</a>
+                        </li>
+                        <li>
+                            <a href="">Новинки</a>
+                        </li>
+                        <li>
+                            <a href="">Скидки и акции</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p>Прайс-лист</p>
+                    <button class="drop-down__button"></button>
+                </li>
+                <li class="drop-down hidden">
+                    <ul>
+                        <li>
+                            <a class="dwnld__price" href="">
+                                <img src="img/file.png" alt="">
+                                <div>
+                                    <p>Скачать прайс-лист</p>
+                                    <p>PDF, 12 Mb</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="footer-mobile__contacts">
+                <li class="copyright">
+                    <p>Политика конфиденциальности</p>
+                    <p>Договор оферты</p>
+                </li>
+                <li class="level-1__contact">
+                    <a href="">
+                        <img src="img/phone.png" alt="">
+                        <p>8 (968) 660-65-50</p>
+                        <img class="help-icon" src="img/help.png" alt="">
+                    </a>
+                </li>
+                <li class="level-1__contact">
+                    <a href="">
+                        <img src="img/email.png" alt="">
+                        <p>market@estatut.ru</p>
+                    </a>
+                </li>
+                <li class="level-1__link">
+                    <a href="">
+                        <img src="img/location.png" alt="">
+                        <p>ул. Лобачевского, 92, корп. 2 119454, г. Москва</p>
+                    </a>
+                </li>
+                <li class="copyright">
+                    <p>© 2020 Издательство «Статут»</p>
+                </li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.3.js"
         integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="script.js"></script>
+
+    <script src="burgerMenu.js"></script>
+    <script src="slider.js"></script>
+    <script src="footerDropDown.js"></script>
 </body>
 
 </html>
